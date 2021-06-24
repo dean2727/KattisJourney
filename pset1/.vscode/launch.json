@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/Users/Deano/academic/CSCE 430/code/problemset1/musical_chairs/musical_chairs.cpp",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "/Users/Deano/academic/CSCE 430/code/problemset1/musical_chairs",
+            "environment": [],
+            "MIMode": "lldb"
+        },
+
+        
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch natrij",
+            "request": "launch",
+            "mainClass": "natrij",
+            "projectName": "problemset1_e8876267"
+        }
+    ]
+}
